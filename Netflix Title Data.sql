@@ -1,6 +1,7 @@
 SELECT title, date_added
 FROM netflix
 WHERE date_added > '2022-01-01';
+
 SELECT [title]
 FROM [netflix]
 WHERE [type] = 'Movie' AND [release_year] < 2014;
